@@ -1,0 +1,4 @@
+Name: Toggle themes
+Description: Toggles RStudio themes
+Binding: toggle_theme
+Interactive: false
