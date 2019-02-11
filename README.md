@@ -20,7 +20,7 @@ themetoggle::toggle_theme()
 themetoggle::toggle_theme()
 ```
 
-By default, the list of themes to cycle through comes from the option `"themetoggle.themes"`. A convenient way to set a custom set of themes is to set this option in your `.Rprofile` with e.g.:
+By default, `toggle_theme()` cycles between Textmate (the default, light theme) and Monokai (a dark theme). A convenient way to set a custom set of themes is to set the `"themetoggle.themes"` option in your `.Rprofile` with e.g.:
 
 ``` r
 options(themetoggle.themes = c("Solarized Light", "Solarized Dark"))

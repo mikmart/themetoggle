@@ -1,6 +1,6 @@
 .onLoad <- function(...) {
   themes <- getOption("themetoggle.themes")
   if (is.null(themes)) {
-    options(themetoggle.themes = c("Monarch", "Crimson Editor"))
+    options(themetoggle.themes = c("Textmate (default)", "Monokai"))
   }
 }
