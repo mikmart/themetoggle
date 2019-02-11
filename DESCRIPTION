@@ -1,5 +1,5 @@
 Package: themetoggle
-Title: Toggle RStudio Themes
+Title: Toggle Through Themes in RStudio
 Version: 0.1.0
 Authors@R: 
     person(given = "Mikko",
