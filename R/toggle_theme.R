@@ -1,4 +1,3 @@
-
 theme_toggler <- function() {
   i <- 0
   function(themes = getOption("themetoggle.themes")) {

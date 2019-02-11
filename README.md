@@ -1,6 +1,6 @@
 # themetoggle
 
-The package exports one function that applies a new RStudio theme, cycling through a given vector of theme names. This function is also exposed as an RStudio addin, enabling you to bind a shortcut to call it.
+**themetoggle** exports one function, `toggle_theme()`, that applies a new RStudio theme, cycling through a given vector of theme names. This function is also exposed as an RStudio addin, enabling you to bind a shortcut to call it.
 
 ## Installation
 
