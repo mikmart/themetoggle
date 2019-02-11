@@ -20,6 +20,8 @@ themetoggle::toggle_theme()
 themetoggle::toggle_theme()
 ```
 
+![toggling themes](https://raw.githubusercontent.com/mikmart/themetoggle/master/inst/media/toggling-themes.gif)
+
 By default, `toggle_theme()` cycles between Textmate (the default, light theme) and Monokai (a dark theme). A convenient way to set a custom set of themes is to set the `"themetoggle.themes"` option in your `.Rprofile` with e.g.:
 
 ``` r
