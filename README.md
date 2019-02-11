@@ -27,3 +27,7 @@ By default, `toggle_theme()` cycles between Textmate (the default, light theme) 
 ``` r
 options(themetoggle.themes = c("Solarized Light", "Solarized Dark"))
 ```
+
+## Inspiration
+
+If it wasn't for hearing Hao Zhu's talk at rstudio::conf(2019), this package would probably not exist. This package is basically just a slight generalization of one of [his example addins](https://github.com/hebrewseniorlife/addin_demo).
