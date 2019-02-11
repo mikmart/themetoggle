@@ -1,5 +1,5 @@
 Package: themetoggle
-Title: What the Package Does (One Line, Title Case)
+Title: Toggle RStudio themes
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Mikko",
@@ -8,6 +8,6 @@ Authors@R:
            email = "mikko.marttila@orionpharma.com")
 Maintainer: Mikko Marttila <mikko.marttila@orionpharma.com>
 Description: What the package does (one paragraph).
-License: Proprietary
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
