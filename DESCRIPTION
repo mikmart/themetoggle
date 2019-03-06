@@ -16,3 +16,5 @@ Imports:
     rstudioapi (>= 0.9.0)
 URL: https://github.com/mikmart/themetoggle
 BugReports: https://github.com/mikmart/themetoggle/issues
+Suggests: 
+    testthat
