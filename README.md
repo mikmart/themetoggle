@@ -28,6 +28,14 @@ By default, `toggle_theme()` cycles between Textmate (the default, light theme) 
 options(themetoggle.themes = c("Solarized Light", "Solarized Dark"))
 ```
 
+You can also set a vector of more than two themes to cycle through several, if you'd like:
+```r
+themes <- c("Tomorrow", "Tomorrow Night", "Tomorrow Night Blue")
+themetoggle::toggle_theme(themes)
+themetoggle::toggle_theme(themes)
+themetoggle::toggle_theme(themes)
+```
+
 ## Inspiration
 
 If it wasn't for hearing Hao Zhu's talk at rstudio::conf(2019), this package would probably not exist: this is basically just a slight generalization of one of [his example addins](https://github.com/hebrewseniorlife/addin_demo).
